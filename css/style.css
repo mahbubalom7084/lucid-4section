@@ -1,0 +1,268 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+body{
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/*header section css*/
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/banner.png) center center no-repeat;
+    background-size: cover;
+}
+
+header .navbar-brand img{
+    width: 130px;
+}
+.nav-item{
+    margin-right: 15px;
+}
+.nav-link{
+    color: white !important;
+}
+.nav-item .active{
+  color: white !important;  
+}
+.cus-height{
+    height: 90vh;
+}
+
+ul{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* banner section  */
+.banner-part h5{
+    font-size: 14px;
+    font-weight: 700;
+    color:#008ed6;
+    text-transform: uppercase;
+    /* margin-bottom: 10px; */
+}
+
+.banner-part h1{
+    line-height: 60px;
+    font-size: 50px;
+    color: #fff;
+    /* width: 46%; */
+    font-weight: 700;
+}
+
+.banner-part p{
+    width: 91%;
+    line-height: 26px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.btns a{
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.btns .btn-primary{
+    background-color: #008ed6;
+    border: 1px solid #008ed6;
+    transition: 0.6s;
+    margin-right: 15px;
+    padding: 11px 8px;
+}
+
+.btns .btn-primary:hover{
+    background: transparent;
+    border: 1px solid white;
+    transition: 0.6s;
+}
+
+.btns .btn-info{
+    background: transparent;
+    border: 1px solid white;
+    transition: 0.6s;
+}
+
+.btns .btn-info:hover{
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    color: white;
+    transition: 0.6s;
+}
+
+.feature{
+    width: 100%;
+    padding: 60px 0px;
+    padding-top: 50px;
+    padding-bottom: 38px;
+    text-align: center;
+    border-bottom: 1px solid #999;
+}
+
+.feature h6{
+    color: #008ed6;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+.feature h2{
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.underline{
+    margin: 30px auto 50px;
+    width: 80px;
+    background: #578bd1;
+    height: 3px;
+}
+
+.feature .content {
+    margin:0px 20px;
+}
+
+.feature .content i{
+    border: 1px solid #d6d6d6;
+    border-radius: 50%;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+.content h5{
+    font-size: 22px;
+    color: #1a1a1a;
+}
+
+.content p{
+    width: 100%;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 300;
+    color: #999999;
+    margin-left: auto;
+}
+
+.content i{
+    font-size: 30px;
+    width: 88px;
+    height: 88px;
+    color: #008ed6;
+    background-color: white !important;
+    border: 2px solid rgb(214, 214, 214);
+    border-radius: 50%;
+    padding-top: 26px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+/* beautiful section */
+
+.beautiful-section{
+    width: 100%;
+    padding: 60px opx;
+    margin-top: 70px;
+}
+
+.c-align{
+    text-align: right;
+}
+
+.beautiful-section .b-inner h6{
+margin-top: 55px;
+
+}
+
+.beautiful-section .b-inner h6{
+    color: #008ed6;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 7px;
+
+}
+
+.beautiful-section .b-inner h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.beautiful-section .b-inner .underline{
+    margin: 25px 0px;
+    width: 10%;
+    background: #578bd1;
+    height: 3px;
+}
+
+.beautiful-section .b-inner p{
+    width: 87%;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 300;
+    color: #999;
+}
+
+.beautiful-section ul{
+    margin: 30px 0px 0px;
+    padding: 0px;
+}
+
+.beautiful-section ul li{
+    list-style-type: none;
+    color: #1a1a1a;
+    margin-bottom: 8px;
+}
+
+.beautiful-section ul li i{
+    font-size: 18px;
+    color: #008ed6;
+    margin-right: 5px;
+}
+
+
+/* super-section */
+
+.super-section{
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 60px 0px;
+}
+
+.super-section h6{
+    color: #008ed6;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 7px;
+
+}
+
+.super-section h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.super-section .underline{
+    margin: 30px 0px;
+    width: 90px;
+    background: #578bd1;
+    height: 3px;
+}
+
+.super-section p{
+    width: 87%;
+    padding-top: 25px;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 300;
+    color: #999999;
+}
+
+.super-section img{
+    width: 100%;
+}
